@@ -1,0 +1,34 @@
+{% include header-sub.html %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="subtron">
+    <div class="herowrapper">
+        <h1> {{page.herotitle}}</h1>
+        <p>{{page.herosub}}</p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="{{page.herolink}}">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+	<div class="container-fluid" style="background-color:#e2eef8;">
+      <!-- Example row of columns -->
+      <div class="innerwrapper">
+      <div class="row">
+    <div class="container">      
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+	        <div class="blog-header">
+	          <h1>{{page.pagetitle}}</h1>
+	          <p class="lead blog-description">{{page.pagedesc}}</p>
+	        </div>
+			{{content}}
+        </div><!-- /.blog-main -->
+
+    {% include sidebar.html %}
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+     </div>
+   </div>
+</div>
+      <!-- /END THE FEATURETTES -->
+{% include footer.html %}

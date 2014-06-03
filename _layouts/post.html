@@ -1,0 +1,45 @@
+{% include header-sub.html %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="subtron">
+    <div class="herowrapper">
+        <h1> {{page.herotitle}}</h1>
+        <p>{{page.herosub}}</p>
+      </div>
+    </div>
+
+	<div class="container-fluid" style="background-color:#e2eef8;">
+      <!-- Example row of columns -->
+      <div class="innerwrapper">
+      <div class="row">
+    <div class="container">      
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+			<div class="post">
+
+  			  <header class="post-header">
+    			  <h1>{{ page.title }}</h1>
+    			  <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  			  </header>
+
+  			<article class="post-content">
+  			  	{{ content }}
+  		  </article>
+	  </div>
+	  </div><!-- /.blog-main -->
+
+    {% include sidebar.html %}
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+     </div>
+   </div>
+</div>
+      <!-- /END THE FEATURETTES -->
+{% include footer.html %}
+
+
+
+
+
+

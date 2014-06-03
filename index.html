@@ -1,0 +1,132 @@
+---
+layout: default
+
+metatitle: Family-owned Door County Builder | Buhr Construction
+
+description: Contact Buhr Construction for custom building, remodeling, roofing, siding, tree removal, window replacement in Green Bay, Door County, and Kewaunee.
+
+herotitle: Quality building for over 20 years.
+
+herosub: We are a family-owned Door County builder providing the highest quality in full-service construction, remodeling, custom woodwork and roofing. 
+
+---
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+    <div class="herowrapper">
+        <h1>{{page.herotitle}}</h1>
+        <p>{{page.herosub}}</p>
+        <p><a class="btn btn-primary btn-lg" style="color:#ffffff;" role="button" href="{{ "roofing/" | prepend: site.baseurl }}">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+	<div class="container-fluid">
+      <!-- Example row of columns -->
+      <div class="innerwrapper">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+          <a href="{{ "new-construction/" | prepend: site.baseurl }}" role="button"><span class="icon-home"></span><br />
+          New Construction &raquo;</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+          <a href="{{ "remodeling/" | prepend: site.baseurl }}" role="button"><span class="icon-icon_29359"></span><br />  <!-- Tools by Joe Richardson from The Noun Project  -->
+          Remodeling &raquo;</a>
+       </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+		 <a href="{{ "roofing/" | prepend: site.baseurl }}" role="button"><span class="icon-icon_32331"></span><br />   <!-- Roof by Paulo Sá Ferreira from The Noun Project -->
+         Roofing &raquo;</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+          <a href="{{ "tree-removal/" | prepend: site.baseurl }}" role="button"><span class="icon-icon_29002"></span><br />  <!-- Tree by Benjamin Harlow from The Noun Project  -->
+          Tree Removal &raquo;</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+          <a href="{{ "windows-siding/" | prepend: site.baseurl }}" role="button"><span class="icon-icon_17017"></span><br />  <!-- Window by Juan Pablo Bravo from The Noun Project  -->
+          Windows &amp; Siding &raquo;</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+          <a href="{{ "custom-woodworking/" | prepend: site.baseurl }}" role="button"><span class="icon-icon_978"></span><br />  <!-- Hand Plane by Scott Lewis from The Noun Project  -->
+          Woodwork &raquo;</a>
+        </div>
+        </div>
+      </div>
+      <!-- START THE FEATURETTES -->
+
+      <!-- <hr class="featurette-divider">  -->
+
+      <div class="row featurette" style="background-color:#e2eef8;">
+      	<div class="innerwrapper">
+        <div class="col-md-7">
+          <h2 class="featurette-heading"><strong>Buhr Construction is a ShingleMaster!</strong></h2>
+          <p class="lead">Our skilled workforce is proudly led by Certainteed ShingleMaster certified experts. This accreditation ensures a commitment to quality. All crews are trained to use the highest quality materials and installation techniques, while adhering to exceptional standards for safety and are all fully insured on the job site.</p>
+          <button type="button" class="btn btn-lg btn-default"><a href="{{ "roofing/" | prepend: site.baseurl }}">Learn more &raquo;</a></button>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/images/500x350.jpg" alt="Generic placeholder image">
+        </div>
+        </div>
+      </div>
+
+    <!-- Jumbotron -->
+      <div class="row featurette" style="background-color:#0066b3; color:#f8f8f8;">
+      <div class="innerwrapper">
+      		<div class="testimonial">
+            	<h2>Hear from our Satisfied Clients</h2>
+            		<p class="lead">
+                        {% for post in site.categories.testimonials limit: 1 %}
+                            <h4 style="color:#ffffff;">{{ post.title }}</h4>
+                            {{ post.content }}
+                        {% endfor %}
+                        </p>
+                            <button type="button" class="btn btn-lg btn-default"><a href="{{ "testimonials/" | prepend: site.baseurl }}">Read more testimonials</a></button>
+                  
+          	</div>
+        </div>
+      </div>
+
+<!-- Contact Us -->
+      <div class="row featurette" style="background-color:#e2eef8 !important;">
+      <div class="innerwrapper">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/images/500x350.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Got Questions? <span class="text-muted">Need a Quote?</span></h2>
+          <p class="lead">Let us help with your next project! For a quote, call 920-825-7761.</p>
+          <button type="button" class="btn btn-lg btn-default"><a href="{{ "contact-buhr/" | prepend: site.baseurl }}">Contact Us</a></button>
+        </div>
+        </div>
+      </div>
+
+    <!-- Thumbnail Gallery -->
+      <div class="row featurette" style="background-color:#ffffff; color:#0066b3;">
+            <div class="container-fluid">
+            	<div class="gallerywrapper">  
+					<h2 class="featurette-heading">Need Inspiration? <span class="text-muted">Check it out.</span></h2>
+          <p class="lead">The most enjoyable part of the building process is watching our customers step back to smile and admire the beauty of their finished project. Get a virtual preview of that experience by browsing this collection showcasing new homes and remodels in Brown, Kewaunee and Door Counties.
+
+</p>
+        <ul class="row">
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4"><img class="img-responsive" src="images/gallery/600x600.jpg"></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4"><img class="img-responsive" src="images/gallery/600x600.jpg"></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4"><img class="img-responsive" src="images/gallery/600x600.jpg"></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4"><img class="img-responsive" src="images/gallery/600x600.jpg"></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4"><img class="img-responsive" src="images/gallery/600x600.jpg"></li>
+            <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4"><img class="img-responsive" src="images/gallery/600x600.jpg"></li>
+          </ul>            
+       		<button type="button" class="btn btn-lg btn-default"><a href="/gallery/">View our entire gallery</a></button>           
+         </div>
+	   </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">         
+          <div class="modal-body">                
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+     </div>
+   </div>
+</div>
+      <!-- /END THE FEATURETTES -->
