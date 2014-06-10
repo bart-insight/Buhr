@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quick Response to Fix Tree Damage"
+title:  "Quick response to fix tree damage..."
 categories: testimonials
 ---
 

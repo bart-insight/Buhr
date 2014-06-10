@@ -1,0 +1,75 @@
+{% include header-sub.html %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="subtron">
+    <div class="herowrapper">
+        <h1> {{page.herotitle}}</h1>
+        <p>{{page.herosub}}</p>
+      </div>
+    </div>
+
+	<div class="container-fluid" style="background-color:#e2eef8;">
+      <!-- Example row of columns -->
+      <div class="innerwrapper">
+      <div class="row">
+    <div class="container">      
+      <div class="row">
+        <div class="col-md-8 center-block">
+	        <div class="blog-header">
+	          <h1>{{page.pagetitle}}</h1>
+	          <p class="lead blog-description">{{page.pagedesc}}</p>
+	        </div>
+			{{content}}
+			
+				<div class="col-md-12" style="margin-bottom:20px;">
+				<button type="button btn default" class="filter btn btn-default active" data-filter="all">Show All</button>	
+				<button class="filter btn default" data-filter=".roofing">Roofing</button>
+				<button class="filter btn default" data-filter=".treeremoval">Tree Removal</button>
+				<button class="filter btn default" data-filter=".woodworking">Custom Woodworking</button>
+				<button class="filter btn default" data-filter=".construction">New Construction</button>
+				<button class="filter btn default" data-filter=".remodeling">Remodeling</button>
+				<button class="filter btn default" data-filter=".windows">Windows &amp; Siding</button>
+				</div>
+			
+	            <div id="Container">
+					<ul>
+	                <li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 roofing" data-my-order="1"><img class="img-responsive" src="../images/gallery/600x600.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 roofing" data-my-order="2"><img class="img-responsive" src="../images/gallery/600x600.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 treeremoval" data-my-order="1"><img class="img-responsive" src="../images/gallery/600x600.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 construction" data-my-order="1"><img class="img-responsive" src="../images/gallery/600x600.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 remodeling" data-my-order="1"><img class="img-responsive" src="../images/gallery/600x600.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 windows" data-my-order="1"><img class="img-responsive" src="../images/gallery/600x600.jpg"></li>
+					<!-- Woodworking -->
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="2"><img class="img-responsive" src="../images/gallery/woodworking/benches-gazeebo1.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="3"><img class="img-responsive" src="../images/gallery/woodworking/benches-gazeebo2.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="4"><img class="img-responsive" src="../images/gallery/woodworking/benches-gazeebo3.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="5"><img class="img-responsive" src="../images/gallery/woodworking/benches-gazeebo4.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="7"><img class="img-responsive" src="../images/gallery/woodworking/log-cabin.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="8"><img class="img-responsive" src="../images/gallery/woodworking/table1.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="9"><img class="img-responsive" src="../images/gallery/woodworking/table2.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="10"><img class="img-responsive" src="../images/gallery/woodworking/table3.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="11"><img class="img-responsive" src="../images/gallery/woodworking/table4.jpg"></li>
+					<li class="mix col-lg-2 col-md-2 col-sm-2 col-xs-4 woodworking" data-my-order="12"><img class="img-responsive" src="../images/gallery/woodworking/table5.jpg"></li>
+				</ul>
+				</div>                    
+	        </div>
+
+	        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	          <div class="modal-dialog">
+	            <div class="modal-content">         
+	              <div class="modal-body">                
+	              </div>
+	            </div><!-- /.modal-content -->
+	          </div><!-- /.modal-dialog -->
+	        </div><!-- /.modal -->
+        </div><!-- /.blog-main -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+     </div>
+   </div>
+
+      </div>
+    </div>
+</div>  <!-- /END THE FEATURETTES -->
+{% include footer.html %}

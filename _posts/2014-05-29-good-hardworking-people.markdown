@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Good Hardworking and Friendly People"
+title:  "Good hardworking and friendly people..."
 categories: testimonials
 ---
 

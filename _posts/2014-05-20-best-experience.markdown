@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Professional, Timely and Easy to Work With"
+title:  "Professional, timely and easy to work with..."
 categories: testimonials
 ---
 

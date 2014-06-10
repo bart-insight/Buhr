@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Thought of Having Work Done On the House No Longer Feels Like an Ordeal"
+title:  "The thought of having work done on the house no longer feels like an ordeal..."
 categories: testimonials
 ---
 

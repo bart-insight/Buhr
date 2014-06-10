@@ -6,6 +6,7 @@ html, body {height: 100%;}
   .row{padding-top:25px; padding-bottom:25px;}
   a.reverse, a.reverse:visited{color:#f90; text-decoration:none;}
   a.reverse:hover{color:#fff;}
+  p {font-size:1.2em;line-height:1.4em;}
   p.italic {font-style:italic;}
   .jumbotron h1, .jumbotron .h1{color:#fff;text-shadow: 0px 2px 8px #444444;}
   h1.blog-title{color:#205CA9;}
@@ -108,6 +109,8 @@ html, body {height: 100%;}
 .col-md-2 a, .col-md-2 a:visited{color:#0066b3; text-decoration:none;}
 .col-md-2 a:hover{color:#cf242a;}
 
+.col-xs-4{margin-bottom:15px;}
+
 .gallerywrapper ul {padding:0 0 0 0; margin:0 0 0 0;}
 
 .gallerywrapper ul li {list-style:none; margin-bottom:15px;}
@@ -133,9 +136,46 @@ html, body {height: 100%;}
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{list-style-type:none;}
 
 .featurette-heading{color:#063960;}
+
+#Container .mix{display: none;}
+.center-block{float:none;}
+
+.btn{margin-bottom:4px;}
+
+.btn-default {
+  border: 0;
+  color: #333;
+  background-color:#ccc;
+  border: 1px solid transparent;
+}
+.btn-default:hover, .btn-default:focus {color: #ffffff;}
+	
+.btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+background-image: none;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+color: #fff;
+background-color: #cf242a;
+border-color: transparent;
+}
+
+.btn:hover, .btn:focus {
+text-decoration: none;
+}
+
+.btn:active, .btn.active {
+outline: 0;
+background-color:#cf242a;
+color:#ffffff;}
+
+.insert{display:block; clear:both; text-align:center; margin:0 auto; padding: 12px 0px;}
 	
 @media (min-width:600px) {
 .col-md-2{float:left; display:inline; margin: 0px 0px 15px 0px; clear:inherit;}
+
+.insert{display:block; clear:both;}
+
 }
 
 
@@ -172,6 +212,7 @@ html, body {height: 100%;}
 
 .featurette-heading{color:#063960;}
 
+.insert{float:right; margin-left:12px;}
   
 }
 
@@ -208,6 +249,7 @@ html, body {height: 100%;}
 
 .featurette-heading{color:#063960;}
 
+.insert{float:right; margin-left:12px;}
 
 }
 
@@ -245,5 +287,7 @@ html, body {height: 100%;}
 .col-md-2{float:left; display:inline; margin: 0px 0px 15px 0px; text-align:center; clear:inherit;}
 
 .featurette-heading{color:#063960;}
+
+.insert{float:right; margin-left:12px;}
 
 }

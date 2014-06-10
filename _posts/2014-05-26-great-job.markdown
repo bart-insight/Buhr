@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Great Job and Crew Really Worked Hard"
+title:  "Great job and crew really worked hard..."
 categories: testimonials
 ---
 
