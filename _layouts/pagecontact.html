@@ -49,7 +49,7 @@
               <span class="help-block" style="display: none;">Please enter a message.</span>
             </div>
             <img id="captcha" src="../library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
-            <a href="#" onclick="document.getElementById('captcha').src = 'library/vender/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-info btn-sm">Show a Different Image</a><br/>
+            <a href="#" onclick="document.getElementById('captcha').src = '../library/vender/securimage/securimage_show.php?' + Math.random(); return false" class="btn btn-info btn-sm">Show a Different Image</a><br/>
             <div class="form-group has-feedback" style="margin-top: 10px;">
               <label class="control-label" for="captcha_code">Text within Image</label>
               <input type="text" class="form-control" name="captcha_code" id="captcha_code" placeholder="For security, please enter the code displayed in the box." />
